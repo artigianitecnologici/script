@@ -1,0 +1,5 @@
+export ROS_IP=`hostname -I`
+export ROS_MASTER_URI=http://ubuntu:11311 
+cd src/marrtino_apps/mapping
+rosrun rviz rviz -d mapping.rviz
+
